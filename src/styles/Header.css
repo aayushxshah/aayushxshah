@@ -1,0 +1,47 @@
+#header {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#navbar {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#name {
+    font-size: 1.5rem;
+    margin: auto 0;
+}
+
+#contact-logos {
+    margin: auto 0;
+}
+
+#description {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 4rem;
+}
+
+.logo-img {
+    width: 1.5rem;
+    height: auto;
+}
+
+.logo-link {
+    margin: auto 1rem;
+}
+
+/* hover color  #76ABAE*/
+.logo-img.github:hover {
+    content: url(src/assets/icons8-github-2.svg);
+}
+
+.logo-img.email:hover {
+    content: url(src/assets/icons8-email-50-2.png);
+}
+
+.logo-img.linkedin:hover {
+    content: url(src/assets/icons8-linkedin-2.svg);
+}

@@ -1,0 +1,34 @@
+.entry {
+    margin-bottom: 1.5rem;
+}
+
+.entry-header {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.entry-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.location {
+    font-weight: lighter;
+}
+
+.time {
+    text-align: right;
+    color: #888;
+}
+
+.entry-link {
+    text-decoration: none;
+    color: #222831;
+}
+
+.entry-link:hover {
+    text-decoration: none;
+    color: #76ABAE;
+}
