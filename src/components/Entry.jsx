@@ -6,7 +6,6 @@ export default function Entry({title, time, location, additionalComment, descrip
     
     if (link && link.length > 0){
         titleLine = <a className='entry-link' href={link} target="_blank">{titleLine}</a>;
-        console.log('1');
     }
 
     if (location && location.length > 0){

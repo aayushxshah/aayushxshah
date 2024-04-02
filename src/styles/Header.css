@@ -34,7 +34,7 @@
 }
 
 /* hover color  #76ABAE*/
-.logo-img.github:hover {
+/* .logo-img.github:hover {
     content: url(src/assets/icons8-github-2.svg);
 }
 
@@ -44,4 +44,4 @@
 
 .logo-img.linkedin:hover {
     content: url(src/assets/icons8-linkedin-2.svg);
-}
+} */

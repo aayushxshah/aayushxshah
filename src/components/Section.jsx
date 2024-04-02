@@ -9,7 +9,6 @@ export default function Section ({name, entries, text}) {
         sectionContent = <div className='section-text'><p>{text}</p></div>
     } else if (entries && entries.length > 0){
         sectionContent = entries.map((entry, index) => {
-            console.log(entry);
             let hr = <> </>;
             if (index != entries.length - 1){
                 hr = <hr/>;
