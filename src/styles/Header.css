@@ -45,3 +45,9 @@
 .logo-img.linkedin:hover {
     content: url(src/assets/icons8-linkedin-2.svg);
 } */
+
+@media only screen and (max-width: 900px) {
+    #navbar {
+        display: block;
+    }
+}

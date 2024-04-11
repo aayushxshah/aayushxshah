@@ -18,7 +18,7 @@ export default function Entry({title, time, location, additionalComment, descrip
             <div className='entry-header'>
                 <div className='left-side-entry-header'>
                     {titleLine}
-                    <h3 className='additionalComment'><em>{additionalComment}</em></h3>
+                    <h3 className='additional-comment'><em>{additionalComment}</em></h3>
                 </div>
                 <h3 className='time'>{time}</h3>
             </div>

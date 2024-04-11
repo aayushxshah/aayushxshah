@@ -18,7 +18,12 @@
     font-weight: lighter;
 }
 
+.additional-comment {
+    font-size: 1rem;
+}
+
 .time {
+    font-size: 1rem;
     text-align: right;
     color: #888;
 }

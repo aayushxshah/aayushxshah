@@ -26,3 +26,13 @@
     width: auto;
 }
 
+@media only screen and (max-width: 900px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+      }
+      .section-content {
+        height: auto;
+        font-size: 125%;
+      }
+}
